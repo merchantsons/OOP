@@ -1,6 +1,6 @@
 {
-  "name": "environmnet",
-  "version": "1.0.0",
+  "name": "ms-cl-oop",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "type": "module",

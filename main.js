@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 import chalk from "chalk";
 console.log(chalk.grey(`
@@ -24,7 +25,7 @@ class Person {
             this.personality = "You are still a Mystery";
             false;
         }
-        console.log(chalk.bgCyanBright(`\n     You are: ${this.personality}     `));
+        console.log(chalk.bgCyan(`\n     You are: ${this.personality}     `));
     }
 }
 class Student extends Person {

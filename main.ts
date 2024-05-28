@@ -1,4 +1,4 @@
-
+#! /usr/bin/env node
 import inquirer  from "inquirer";
 import chalk from "chalk";
 
@@ -24,7 +24,7 @@ class Person
       else if (ans == 2){this.personality = "Introvert"}
       else              {this.personality = "You are still a Mystery"; false} 
  
-      console.log(chalk.bgCyanBright(`\n     You are: ${this.personality}     `));           
+      console.log(chalk.bgCyan(`\n     You are: ${this.personality}     `));           
     }    
 }
 
